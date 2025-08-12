@@ -1,0 +1,549 @@
+2025-08-10 18:03:17 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-10 18:03:17 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-10 18:03:17 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-10 18:03:18 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-10 18:03:18 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-10 18:03:22 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-10 18:03:22 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-10 18:03:22 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-10 18:03:22 - ModelScopeMCPServer - ERROR - 服务器运行失败: unhandled errors in a TaskGroup (1 sub-exception)
+2025-08-10 18:03:22 - ModelScopeMCPServer - INFO - 正在清理资源...
+2025-08-10 18:03:22 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-10 18:03:22 - ModelScopeMCPServer - INFO - 资源清理完成
+2025-08-10 18:06:25 - DatabaseService - ERROR - 数据库初始化失败: 'Settings' object has no attribute 'database_url'
+2025-08-10 18:07:49 - DatabaseService - ERROR - 数据库初始化失败: 'Settings' object has no attribute 'database_url'
+2025-08-10 18:08:51 - DatabaseService - INFO - 正在连接数据库: sqlite:///:memory:
+2025-08-10 18:08:51 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-10 18:08:51 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-10 18:12:06 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=50, offset=0
+2025-08-10 18:12:06 - ListDatasetsHandler - INFO - 列出数据集: category=nlp, source=modelscope, search=None, limit=10, offset=0
+2025-08-10 18:12:06 - GetDatasetInfoHandler - INFO - 获取数据集信息: test-dataset, include_schema=True, include_samples=False
+2025-08-10 18:12:06 - GetDatasetInfoHandler - ERROR - 获取数据集信息失败: object Mock can't be used in 'await' expression
+2025-08-10 18:12:06 - FilterSamplesHandler - INFO - 过滤样本: test-dataset, subset=None, filters={'label': 'positive'}, limit=10, offset=0
+2025-08-10 18:12:06 - FilterSamplesHandler - ERROR - 过滤样本失败: object Mock can't be used in 'await' expression
+2025-08-10 18:12:06 - QueryDatasetHandler - INFO - 查询数据集: query='列出所有数据集', dataset=None, limit=50, session=None
+2025-08-10 18:12:06 - QueryDatasetHandler - ERROR - 查询数据集失败: object Mock can't be used in 'await' expression
+2025-08-10 18:13:25 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-10 18:13:25 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-10 18:13:25 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-10 18:13:26 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-10 18:13:26 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-10 18:13:30 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-10 18:13:30 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-10 18:13:30 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-10 18:13:30 - ModelScopeMCPServer - ERROR - 服务器运行失败: unhandled errors in a TaskGroup (1 sub-exception)
+2025-08-10 18:13:30 - ModelScopeMCPServer - INFO - 正在清理资源...
+2025-08-10 18:13:30 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-10 18:13:30 - ModelScopeMCPServer - INFO - 资源清理完成
+2025-08-10 18:13:57 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=50, offset=0
+2025-08-10 18:13:57 - ListDatasetsHandler - INFO - 列出数据集: category=nlp, source=modelscope, search=None, limit=10, offset=0
+2025-08-10 18:13:57 - GetDatasetInfoHandler - INFO - 获取数据集信息: test-dataset, include_schema=True, include_samples=False
+2025-08-10 18:13:57 - GetDatasetInfoHandler - ERROR - 获取数据集信息失败: object Mock can't be used in 'await' expression
+2025-08-10 18:13:57 - FilterSamplesHandler - INFO - 过滤样本: test-dataset, subset=None, filters={'label': 'positive'}, limit=10, offset=0
+2025-08-10 18:13:57 - FilterSamplesHandler - ERROR - 过滤样本失败: object Mock can't be used in 'await' expression
+2025-08-10 18:13:57 - QueryDatasetHandler - INFO - 查询数据集: query='列出所有数据集', dataset=None, limit=50, session=None
+2025-08-10 18:13:57 - QueryDatasetHandler - ERROR - 查询数据集失败: object Mock can't be used in 'await' expression
+2025-08-12 21:56:31 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-12 21:56:31 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 21:56:31 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 21:56:31 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 21:56:31 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 21:56:34 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-12 21:56:34 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 21:56:34 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 21:56:34 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 21:56:34 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 21:56:35 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 21:56:35 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 21:56:35 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-12 21:56:35 - ModelScopeMCPServer - ERROR - 服务器运行失败: unhandled errors in a TaskGroup (1 sub-exception)
+2025-08-12 21:56:35 - ModelScopeMCPServer - INFO - 正在清理资源...
+2025-08-12 21:56:35 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 21:56:35 - ModelScopeMCPServer - INFO - 资源清理完成
+2025-08-12 21:56:38 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 21:56:38 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 21:56:38 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-12 21:56:38 - ModelScopeMCPServer - ERROR - 服务器运行失败: unhandled errors in a TaskGroup (1 sub-exception)
+2025-08-12 21:56:38 - ModelScopeMCPServer - INFO - 正在清理资源...
+2025-08-12 21:56:38 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 21:56:38 - ModelScopeMCPServer - INFO - 资源清理完成
+2025-08-12 21:59:45 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-12 21:59:45 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 21:59:45 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 21:59:45 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 21:59:45 - CacheService - INFO - Redis已在配置中禁用，跳过连接
+2025-08-12 21:59:45 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-12 21:59:45 - ModelScopeMCPServer - ERROR - stdio_server运行失败: unhandled errors in a TaskGroup (1 sub-exception)
+2025-08-12 21:59:45 - ModelScopeMCPServer - ERROR - 服务器运行失败: unhandled errors in a TaskGroup (1 sub-exception)
+2025-08-12 21:59:45 - ModelScopeMCPServer - INFO - 正在清理资源...
+2025-08-12 21:59:45 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 21:59:45 - ModelScopeMCPServer - INFO - 资源清理完成
+2025-08-12 21:59:45 - ModelScopeMCPServer - INFO - 正在清理资源...
+2025-08-12 21:59:45 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 21:59:45 - ModelScopeMCPServer - INFO - 资源清理完成
+2025-08-12 22:00:11 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-12 22:00:11 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 22:00:11 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:00:11 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:00:11 - CacheService - INFO - Redis已在配置中禁用，跳过连接
+2025-08-12 22:00:11 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-12 22:00:11 - ModelScopeMCPServer - ERROR - stdio_server运行失败: unhandled errors in a TaskGroup (1 sub-exception)
+2025-08-12 22:00:11 - ModelScopeMCPServer - ERROR - 服务器运行失败: unhandled errors in a TaskGroup (1 sub-exception)
+2025-08-12 22:00:11 - ModelScopeMCPServer - INFO - 正在清理资源...
+2025-08-12 22:00:11 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:00:11 - ModelScopeMCPServer - INFO - 资源清理完成
+2025-08-12 22:00:11 - ModelScopeMCPServer - INFO - 正在清理资源...
+2025-08-12 22:00:11 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:00:11 - ModelScopeMCPServer - INFO - 资源清理完成
+2025-08-12 22:05:03 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-12 22:05:03 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 22:05:03 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:05:03 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:05:03 - CacheService - INFO - Redis已在配置中禁用，跳过连接
+2025-08-12 22:05:03 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-12 22:06:16 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 22:06:16 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:06:16 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:06:16 - CacheService - INFO - Redis已在配置中禁用，跳过连接
+2025-08-12 22:06:16 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-12 22:06:16 - ModelScopeMCPServer - INFO - 正在清理资源...
+2025-08-12 22:06:16 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:06:16 - ModelScopeMCPServer - INFO - 资源清理完成
+2025-08-12 22:06:16 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:06:16 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:06:16 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:06:16 - CacheService - INFO - Redis已在配置中禁用，跳过连接
+2025-08-12 22:06:16 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 22:06:16 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:06:16 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:06:16 - CacheService - INFO - Redis已在配置中禁用，跳过连接
+2025-08-12 22:06:16 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-12 22:06:16 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=5, offset=0
+2025-08-12 22:06:16 - GetDatasetInfoHandler - INFO - 获取数据集信息: test_dataset, include_schema=True, include_samples=False
+2025-08-12 22:06:16 - ModelScopeMCPServer - INFO - 正在清理资源...
+2025-08-12 22:06:16 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:06:16 - ModelScopeMCPServer - INFO - 资源清理完成
+2025-08-12 22:07:54 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-12 22:07:54 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 22:07:54 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:07:54 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:07:54 - CacheService - INFO - Redis已在配置中禁用，跳过连接
+2025-08-12 22:07:54 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-12 22:08:52 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-12 22:08:52 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 22:08:52 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:08:52 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:08:52 - CacheService - INFO - Redis已在配置中禁用，跳过连接
+2025-08-12 22:08:52 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-12 22:11:32 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-12 22:11:32 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 22:11:32 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:11:32 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:11:32 - CacheService - INFO - Redis已在配置中禁用，跳过连接
+2025-08-12 22:11:32 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-12 22:14:52 - DatabaseService - ERROR - 数据库初始化失败: 'ConfigManager' object has no attribute 'database_url'
+2025-08-12 22:16:24 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:16:24 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:16:24 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:16:28 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:16:28 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:16:28 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:16:54 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:16:54 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:16:54 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:16:58 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:16:58 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:16:58 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=5, offset=0
+2025-08-12 22:16:58 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:16:58 - QueryDatasetHandler - ERROR - 查询数据集失败: 'parsed_result' is an invalid keyword argument for QueryHistory
+2025-08-12 22:16:58 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:18:11 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:18:11 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:18:11 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:18:15 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:18:15 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:18:15 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=50, offset=0
+2025-08-12 22:18:15 - ListDatasetsHandler - INFO - 列出数据集: category=text-classification, source=all, search=None, limit=50, offset=0
+2025-08-12 22:18:15 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=50, offset=0
+2025-08-12 22:18:15 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=中文, limit=50, offset=0
+2025-08-12 22:18:15 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:18:15 - QueryDatasetHandler - ERROR - 查询数据集失败: 'parsed_result' is an invalid keyword argument for QueryHistory
+2025-08-12 22:18:15 - QueryDatasetHandler - INFO - 查询数据集: query='我需要情感分析的数据', dataset=None, limit=3, session=None
+2025-08-12 22:18:15 - QueryDatasetHandler - ERROR - 查询数据集失败: 'parsed_result' is an invalid keyword argument for QueryHistory
+2025-08-12 22:18:15 - QueryDatasetHandler - INFO - 查询数据集: query='有没有命名实体识别的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:18:15 - QueryDatasetHandler - ERROR - 查询数据集失败: 'parsed_result' is an invalid keyword argument for QueryHistory
+2025-08-12 22:18:15 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:20:24 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:20:24 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:20:24 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:20:28 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:20:28 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:20:29 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=50, offset=0
+2025-08-12 22:20:29 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x54998b0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:20:29 - ListDatasetsHandler - INFO - 列出数据集: category=text-classification, source=all, search=None, limit=50, offset=0
+2025-08-12 22:20:29 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x549a150> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:20:29 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=50, offset=0
+2025-08-12 22:20:29 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x549aa20> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:20:29 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=中文, limit=50, offset=0
+2025-08-12 22:20:29 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x549b950> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:20:29 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:20:29 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x549aff0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:20:29 - QueryDatasetHandler - INFO - 查询数据集: query='我需要情感分析的数据', dataset=None, limit=3, session=None
+2025-08-12 22:20:29 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x549aff0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:20:29 - QueryDatasetHandler - INFO - 查询数据集: query='有没有命名实体识别的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:20:29 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x549aff0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:20:29 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:21:55 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:21:55 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:21:55 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:21:59 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:21:59 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:21:59 - DatabaseService - ERROR - 数据库操作失败: (sqlite3.IntegrityError) UNIQUE constraint failed: datasets.name
+[SQL: INSERT INTO datasets (name, display_name, description, source, source_id, category, tags, total_samples, size_bytes, is_active, last_accessed, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id, updated_at]
+[parameters: ('chinese_text_classification', '中文文本分类数据集', '包含新闻、评论等多种类型的中文文本分类数据', 'modelscope', 'damo/nlp_structbert_sentiment-classification_chinese-base', 'text-classification', '["\\u4e2d\\u6587", "\\u6587\\u672c\\u5206\\u7c7b", "\\u60c5\\u611f\\u5206\\u6790"]', 10000, 50000000, 1, None, '2025-08-12 22:21:59.426114')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-12 22:21:59 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=50, offset=0
+2025-08-12 22:21:59 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x548cfe0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:21:59 - ListDatasetsHandler - INFO - 列出数据集: category=text-classification, source=all, search=None, limit=50, offset=0
+2025-08-12 22:21:59 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x548d8e0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:21:59 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=50, offset=0
+2025-08-12 22:21:59 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x548e1b0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:21:59 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=中文, limit=50, offset=0
+2025-08-12 22:21:59 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x548f0e0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:21:59 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:21:59 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x548cfe0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:21:59 - QueryDatasetHandler - INFO - 查询数据集: query='我需要情感分析的数据', dataset=None, limit=3, session=None
+2025-08-12 22:21:59 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x548cfe0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:21:59 - QueryDatasetHandler - INFO - 查询数据集: query='有没有命名实体识别的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:21:59 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x548cfe0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:21:59 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:23:07 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:23:07 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:23:07 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:23:11 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:23:11 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:23:11 - DatabaseService - ERROR - 数据库操作失败: (sqlite3.IntegrityError) UNIQUE constraint failed: datasets.name
+[SQL: INSERT INTO datasets (name, display_name, description, source, source_id, category, tags, total_samples, size_bytes, is_active, last_accessed, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id, updated_at]
+[parameters: ('chinese_text_classification', '中文文本分类数据集', '包含新闻、评论等多种类型的中文文本分类数据', 'modelscope', 'damo/nlp_structbert_sentiment-classification_chinese-base', 'text-classification', '["\\u4e2d\\u6587", "\\u6587\\u672c\\u5206\\u7c7b", "\\u60c5\\u611f\\u5206\\u6790"]', 10000, 50000000, 1, None, '2025-08-12 22:23:11.818205')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-12 22:23:11 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=50, offset=0
+2025-08-12 22:23:11 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x5504e30> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:23:11 - ListDatasetsHandler - INFO - 列出数据集: category=text-classification, source=all, search=None, limit=50, offset=0
+2025-08-12 22:23:11 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x55057c0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:23:11 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=50, offset=0
+2025-08-12 22:23:11 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x5506090> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:23:11 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=中文, limit=50, offset=0
+2025-08-12 22:23:11 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x5506f90> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:23:11 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:23:11 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x5506630> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:23:11 - QueryDatasetHandler - INFO - 查询数据集: query='我需要情感分析的数据', dataset=None, limit=3, session=None
+2025-08-12 22:23:11 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x5506630> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:23:11 - QueryDatasetHandler - INFO - 查询数据集: query='有没有命名实体识别的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:23:11 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x5506630> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:23:11 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:24:23 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:24:24 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:24:24 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:24:28 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:24:28 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:24:28 - DatabaseService - ERROR - 数据库操作失败: (sqlite3.IntegrityError) UNIQUE constraint failed: datasets.name
+[SQL: INSERT INTO datasets (name, display_name, description, source, source_id, category, tags, total_samples, size_bytes, is_active, last_accessed, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id, updated_at]
+[parameters: ('chinese_text_classification', '中文文本分类数据集', '包含新闻、评论等多种类型的中文文本分类数据', 'modelscope', 'damo/nlp_structbert_sentiment-classification_chinese-base', 'text-classification', '["\\u4e2d\\u6587", "\\u6587\\u672c\\u5206\\u7c7b", "\\u60c5\\u611f\\u5206\\u6790"]', 10000, 50000000, 1, None, '2025-08-12 22:24:28.119334')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-12 22:24:28 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=50, offset=0
+2025-08-12 22:24:28 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x53c8e60> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:24:28 - ListDatasetsHandler - INFO - 列出数据集: category=text-classification, source=all, search=None, limit=50, offset=0
+2025-08-12 22:24:28 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x53c97f0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:24:28 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=50, offset=0
+2025-08-12 22:24:28 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x53ca0c0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:24:28 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=中文, limit=50, offset=0
+2025-08-12 22:24:28 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x53cafc0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:24:28 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:24:28 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x53ca480> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:24:28 - QueryDatasetHandler - INFO - 查询数据集: query='我需要情感分析的数据', dataset=None, limit=3, session=None
+2025-08-12 22:24:28 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x53ca480> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:24:28 - QueryDatasetHandler - INFO - 查询数据集: query='有没有命名实体识别的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:24:28 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x53ca480> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:24:28 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:25:10 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:25:10 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:25:10 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:25:14 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:25:14 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:25:14 - DatabaseService - ERROR - 数据库操作失败: (sqlite3.IntegrityError) UNIQUE constraint failed: datasets.name
+[SQL: INSERT INTO datasets (name, display_name, description, source, source_id, category, tags, total_samples, size_bytes, is_active, last_accessed, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id, updated_at]
+[parameters: ('chinese_text_classification', '中文文本分类数据集', '包含新闻、评论等多种类型的中文文本分类数据', 'modelscope', 'damo/nlp_structbert_sentiment-classification_chinese-base', 'text-classification', '["\\u4e2d\\u6587", "\\u6587\\u672c\\u5206\\u7c7b", "\\u60c5\\u611f\\u5206\\u6790"]', 10000, 50000000, 1, None, '2025-08-12 22:25:14.482605')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-12 22:25:14 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=50, offset=0
+2025-08-12 22:25:14 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x5448f20> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:25:14 - ListDatasetsHandler - INFO - 列出数据集: category=text-classification, source=all, search=None, limit=50, offset=0
+2025-08-12 22:25:14 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x54498b0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:25:14 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=50, offset=0
+2025-08-12 22:25:14 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x544a180> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:25:14 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=中文, limit=50, offset=0
+2025-08-12 22:25:14 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x544b080> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:25:14 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:25:14 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x544a540> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:25:14 - QueryDatasetHandler - INFO - 查询数据集: query='我需要情感分析的数据', dataset=None, limit=3, session=None
+2025-08-12 22:25:14 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x544a540> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:25:14 - QueryDatasetHandler - INFO - 查询数据集: query='有没有命名实体识别的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:25:14 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x544a540> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:25:14 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:25:49 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:25:49 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:25:49 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:25:53 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:25:53 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:25:53 - DatabaseService - ERROR - 数据库操作失败: (sqlite3.IntegrityError) UNIQUE constraint failed: datasets.name
+[SQL: INSERT INTO datasets (name, display_name, description, source, source_id, category, tags, total_samples, size_bytes, is_active, last_accessed, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id, updated_at]
+[parameters: ('chinese_text_classification', '中文文本分类数据集', '包含新闻、评论等多种类型的中文文本分类数据', 'modelscope', 'damo/nlp_structbert_sentiment-classification_chinese-base', 'text-classification', '["\\u4e2d\\u6587", "\\u6587\\u672c\\u5206\\u7c7b", "\\u60c5\\u611f\\u5206\\u6790"]', 10000, 50000000, 1, None, '2025-08-12 22:25:53.360191')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-12 22:25:53 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=50, offset=0
+2025-08-12 22:25:53 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x5539070> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:25:53 - ListDatasetsHandler - INFO - 列出数据集: category=text-classification, source=all, search=None, limit=50, offset=0
+2025-08-12 22:25:53 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x5539a00> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:25:53 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=50, offset=0
+2025-08-12 22:25:53 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x553a2d0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:25:53 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=中文, limit=50, offset=0
+2025-08-12 22:25:53 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x553b200> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:25:53 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:25:53 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x553a8a0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:25:53 - QueryDatasetHandler - INFO - 查询数据集: query='我需要情感分析的数据', dataset=None, limit=3, session=None
+2025-08-12 22:25:53 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x553a8a0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:25:53 - QueryDatasetHandler - INFO - 查询数据集: query='有没有命名实体识别的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:25:53 - QueryDatasetHandler - ERROR - 查询数据集失败: Instance <QueryHistory at 0x553a8a0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:25:53 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:26:27 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:26:27 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:26:27 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:26:31 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:26:31 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:26:31 - DatabaseService - ERROR - 数据库操作失败: (sqlite3.IntegrityError) UNIQUE constraint failed: datasets.name
+[SQL: INSERT INTO datasets (name, display_name, description, source, source_id, category, tags, total_samples, size_bytes, is_active, last_accessed, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id, updated_at]
+[parameters: ('chinese_text_classification', '中文文本分类数据集', '包含新闻、评论等多种类型的中文文本分类数据', 'modelscope', 'damo/nlp_structbert_sentiment-classification_chinese-base', 'text-classification', '["\\u4e2d\\u6587", "\\u6587\\u672c\\u5206\\u7c7b", "\\u60c5\\u611f\\u5206\\u6790"]', 10000, 50000000, 1, None, '2025-08-12 22:26:31.534618')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-12 22:26:31 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=50, offset=0
+2025-08-12 22:26:31 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x567ce60> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:26:31 - ListDatasetsHandler - INFO - 列出数据集: category=text-classification, source=all, search=None, limit=50, offset=0
+2025-08-12 22:26:31 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x567d7f0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:26:31 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=50, offset=0
+2025-08-12 22:26:31 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x567e0c0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:26:31 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=中文, limit=50, offset=0
+2025-08-12 22:26:31 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x567efc0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:26:31 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:26:31 - DatabaseService - ERROR - 数据库操作失败: 'result_type' is an invalid keyword argument for QueryResult
+2025-08-12 22:26:31 - QueryDatasetHandler - ERROR - 查询数据集失败: 'result_type' is an invalid keyword argument for QueryResult
+2025-08-12 22:26:31 - QueryDatasetHandler - INFO - 查询数据集: query='我需要情感分析的数据', dataset=None, limit=3, session=None
+2025-08-12 22:26:31 - DatabaseService - ERROR - 数据库操作失败: 'result_type' is an invalid keyword argument for QueryResult
+2025-08-12 22:26:31 - QueryDatasetHandler - ERROR - 查询数据集失败: 'result_type' is an invalid keyword argument for QueryResult
+2025-08-12 22:26:31 - QueryDatasetHandler - INFO - 查询数据集: query='有没有命名实体识别的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:26:31 - DatabaseService - ERROR - 数据库操作失败: 'result_type' is an invalid keyword argument for QueryResult
+2025-08-12 22:26:31 - QueryDatasetHandler - ERROR - 查询数据集失败: 'result_type' is an invalid keyword argument for QueryResult
+2025-08-12 22:26:31 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:27:40 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:27:40 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:27:40 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:27:44 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:27:44 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:27:44 - DatabaseService - ERROR - 数据库操作失败: (sqlite3.IntegrityError) UNIQUE constraint failed: datasets.name
+[SQL: INSERT INTO datasets (name, display_name, description, source, source_id, category, tags, total_samples, size_bytes, is_active, last_accessed, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id, updated_at]
+[parameters: ('chinese_text_classification', '中文文本分类数据集', '包含新闻、评论等多种类型的中文文本分类数据', 'modelscope', 'damo/nlp_structbert_sentiment-classification_chinese-base', 'text-classification', '["\\u4e2d\\u6587", "\\u6587\\u672c\\u5206\\u7c7b", "\\u60c5\\u611f\\u5206\\u6790"]', 10000, 50000000, 1, None, '2025-08-12 22:27:44.302205')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-12 22:27:44 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=50, offset=0
+2025-08-12 22:27:44 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x5478dd0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:27:44 - ListDatasetsHandler - INFO - 列出数据集: category=text-classification, source=all, search=None, limit=50, offset=0
+2025-08-12 22:27:44 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x5479760> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:27:44 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=50, offset=0
+2025-08-12 22:27:44 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x547a030> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:27:44 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=中文, limit=50, offset=0
+2025-08-12 22:27:44 - ListDatasetsHandler - ERROR - 列出数据集失败: Instance <Dataset at 0x547af60> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:27:44 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:27:44 - QueryDatasetHandler - INFO - 查询数据集: query='我需要情感分析的数据', dataset=None, limit=3, session=None
+2025-08-12 22:27:44 - QueryDatasetHandler - INFO - 查询数据集: query='有没有命名实体识别的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:27:44 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:30:36 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:30:36 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:30:36 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:30:40 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:30:40 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:30:40 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=5, offset=0
+2025-08-12 22:30:40 - ListDatasetsHandler - ERROR - 列出数据集失败: Parent instance <Dataset at 0x565d8e0> is not bound to a Session; lazy load operation of attribute 'subsets' cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:30:40 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:30:40 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:31:13 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:31:14 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:31:14 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:31:22 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:31:22 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:31:22 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:31:26 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:31:26 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:31:26 - DatabaseService - ERROR - 数据库操作失败: (sqlite3.IntegrityError) UNIQUE constraint failed: datasets.name
+[SQL: INSERT INTO datasets (name, display_name, description, source, source_id, category, tags, total_samples, size_bytes, is_active, last_accessed, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id, updated_at]
+[parameters: ('chinese_text_classification', '中文文本分类数据集', '包含新闻、评论等多种类型的中文文本分类数据', 'modelscope', 'damo/nlp_structbert_sentiment-classification_chinese-base', 'text-classification', '["\\u4e2d\\u6587", "\\u6587\\u672c\\u5206\\u7c7b", "\\u60c5\\u611f\\u5206\\u6790"]', 10000, 50000000, 1, None, '2025-08-12 22:31:26.792700')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-12 22:31:26 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=50, offset=0
+2025-08-12 22:31:26 - ListDatasetsHandler - ERROR - 列出数据集失败: Parent instance <Dataset at 0x56f8d70> is not bound to a Session; lazy load operation of attribute 'subsets' cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:31:26 - ListDatasetsHandler - INFO - 列出数据集: category=text-classification, source=all, search=None, limit=50, offset=0
+2025-08-12 22:31:26 - ListDatasetsHandler - ERROR - 列出数据集失败: Parent instance <Dataset at 0x56f96d0> is not bound to a Session; lazy load operation of attribute 'subsets' cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:31:26 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=50, offset=0
+2025-08-12 22:31:26 - ListDatasetsHandler - ERROR - 列出数据集失败: Parent instance <Dataset at 0x56f9fa0> is not bound to a Session; lazy load operation of attribute 'subsets' cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:31:26 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=中文, limit=50, offset=0
+2025-08-12 22:31:26 - ListDatasetsHandler - ERROR - 列出数据集失败: Parent instance <Dataset at 0x56faed0> is not bound to a Session; lazy load operation of attribute 'subsets' cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-08-12 22:31:26 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:31:26 - QueryDatasetHandler - INFO - 查询数据集: query='我需要情感分析的数据', dataset=None, limit=3, session=None
+2025-08-12 22:31:26 - QueryDatasetHandler - INFO - 查询数据集: query='有没有命名实体识别的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:31:26 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:31:47 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:31:47 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:31:47 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:31:51 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:31:51 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:31:51 - DatabaseService - ERROR - 数据库操作失败: (sqlite3.IntegrityError) UNIQUE constraint failed: datasets.name
+[SQL: INSERT INTO datasets (name, display_name, description, source, source_id, category, tags, total_samples, size_bytes, is_active, last_accessed, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id, updated_at]
+[parameters: ('chinese_text_classification', '中文文本分类数据集', '包含新闻、评论等多种类型的中文文本分类数据', 'modelscope', 'damo/nlp_structbert_sentiment-classification_chinese-base', 'text-classification', '["\\u4e2d\\u6587", "\\u6587\\u672c\\u5206\\u7c7b", "\\u60c5\\u611f\\u5206\\u6790"]', 10000, 50000000, 1, None, '2025-08-12 22:31:51.594378')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-08-12 22:31:51 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=50, offset=0
+2025-08-12 22:31:51 - ListDatasetsHandler - INFO - 列出数据集: category=text-classification, source=all, search=None, limit=50, offset=0
+2025-08-12 22:31:51 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=50, offset=0
+2025-08-12 22:31:51 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=中文, limit=50, offset=0
+2025-08-12 22:31:51 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:31:51 - QueryDatasetHandler - INFO - 查询数据集: query='我需要情感分析的数据', dataset=None, limit=3, session=None
+2025-08-12 22:31:51 - QueryDatasetHandler - INFO - 查询数据集: query='有没有命名实体识别的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:31:51 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:32:24 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:32:24 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:32:24 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:32:28 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:32:28 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:32:28 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=all, search=None, limit=10, offset=0
+2025-08-12 22:32:28 - QueryDatasetHandler - INFO - 查询数据集: query='中文', dataset=None, limit=3, session=None
+2025-08-12 22:32:28 - QueryDatasetHandler - INFO - 查询数据集: query='chinese', dataset=None, limit=3, session=None
+2025-08-12 22:32:28 - QueryDatasetHandler - INFO - 查询数据集: query='text', dataset=None, limit=3, session=None
+2025-08-12 22:32:28 - QueryDatasetHandler - INFO - 查询数据集: query='classification', dataset=None, limit=3, session=None
+2025-08-12 22:32:28 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:33:17 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:33:18 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:33:18 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:33:55 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:33:55 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:33:55 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:33:59 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:33:59 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:34:16 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:34:16 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:34:16 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:34:20 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:34:20 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:34:20 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:34:53 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:34:53 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:34:53 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:34:57 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:34:57 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:34:57 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:35:41 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:35:41 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:35:41 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:35:45 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:35:45 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:35:45 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:36:40 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:36:40 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:36:40 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:36:44 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:36:44 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:36:44 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:36:54 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:36:54 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:36:54 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:36:58 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:36:58 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:36:58 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=5, offset=0
+2025-08-12 22:36:58 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:36:58 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:37:41 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:37:41 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:37:41 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:37:45 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:37:45 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:37:45 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:37:45 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:38:14 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:38:14 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:38:14 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:38:19 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:38:19 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:38:19 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:38:19 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:38:27 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:38:27 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:38:27 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:38:31 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:38:31 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:38:31 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=5, offset=0
+2025-08-12 22:38:31 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:38:31 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:39:48 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:39:48 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:39:48 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:39:52 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:39:52 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:39:52 - ListDatasetsHandler - INFO - 列出数据集: category=None, source=modelscope, search=None, limit=5, offset=0
+2025-08-12 22:39:52 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:39:52 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:40:11 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:40:11 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:40:11 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 22:40:15 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 22:40:15 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 22:40:15 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文文本分类的数据集', dataset=None, limit=3, session=None
+2025-08-12 22:40:15 - DatabaseService - INFO - 数据库连接已关闭
+2025-08-12 22:57:49 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-12 22:57:49 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 22:57:49 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:57:49 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:57:49 - CacheService - INFO - Redis已在配置中禁用，跳过连接
+2025-08-12 22:57:49 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-12 22:58:22 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-12 22:58:22 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 22:58:22 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:58:22 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:58:22 - CacheService - INFO - Redis已在配置中禁用，跳过连接
+2025-08-12 22:58:22 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-12 22:59:16 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-12 22:59:16 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 22:59:16 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 22:59:16 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 22:59:16 - CacheService - INFO - Redis已在配置中禁用，跳过连接
+2025-08-12 22:59:16 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-12 23:05:10 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-12 23:05:10 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 23:05:10 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 23:05:10 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 23:05:10 - CacheService - INFO - Redis已在配置中禁用，跳过连接
+2025-08-12 23:05:10 - ModelScopeMCPServer - INFO - 服务初始化完成
+2025-08-12 23:15:53 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 23:15:57 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 23:15:57 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 23:15:57 - QueryDatasetHandler - INFO - 查询数据集: query='中文', dataset=None, limit=5, session=None
+2025-08-12 23:15:57 - DatabaseService - ERROR - 数据库初始化失败: 'str' object has no attribute 'database_url'
+2025-08-12 23:15:57 - QueryDatasetHandler - ERROR - 查询数据集失败: 'str' object has no attribute 'database_url'
+2025-08-12 23:15:58 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文对话数据', dataset=None, limit=5, session=None
+2025-08-12 23:15:58 - DatabaseService - ERROR - 数据库初始化失败: 'str' object has no attribute 'database_url'
+2025-08-12 23:15:58 - QueryDatasetHandler - ERROR - 查询数据集失败: 'str' object has no attribute 'database_url'
+2025-08-12 23:15:59 - QueryDatasetHandler - INFO - 查询数据集: query='机器学习训练数据集', dataset=None, limit=5, session=None
+2025-08-12 23:15:59 - DatabaseService - ERROR - 数据库初始化失败: 'str' object has no attribute 'database_url'
+2025-08-12 23:15:59 - QueryDatasetHandler - ERROR - 查询数据集失败: 'str' object has no attribute 'database_url'
+2025-08-12 23:16:00 - QueryDatasetHandler - INFO - 查询数据集: query='图像分类相关的数据', dataset=None, limit=5, session=None
+2025-08-12 23:16:00 - DatabaseService - ERROR - 数据库初始化失败: 'str' object has no attribute 'database_url'
+2025-08-12 23:16:00 - QueryDatasetHandler - ERROR - 查询数据集失败: 'str' object has no attribute 'database_url'
+2025-08-12 23:17:24 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 23:17:24 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 23:17:24 - CacheService - INFO - 正在连接Redis: localhost:6379
+2025-08-12 23:17:28 - CacheService - ERROR - Redis初始化失败: Error 22 connecting to localhost:6379. 远程计算机拒绝网络连接。.
+2025-08-12 23:17:28 - CacheService - WARNING - Redis不可用，缓存功能已禁用
+2025-08-12 23:17:28 - QueryDatasetHandler - INFO - 查询数据集: query='中文', dataset=None, limit=5, session=None
+2025-08-12 23:17:29 - QueryDatasetHandler - INFO - 查询数据集: query='找一些中文对话数据', dataset=None, limit=5, session=None
+2025-08-12 23:17:30 - QueryDatasetHandler - INFO - 查询数据集: query='机器学习训练数据集', dataset=None, limit=5, session=None
+2025-08-12 23:17:31 - QueryDatasetHandler - INFO - 查询数据集: query='图像分类相关的数据', dataset=None, limit=5, session=None
