@@ -1,0 +1,40 @@
+# ModelScope数据集即时查询MCP Server依赖包
+
+# MCP核心库
+mcp>=1.0.0
+
+# 数据处理库
+datasets>=2.14.0
+pyarrow>=13.0.0
+pandas>=2.1.0
+numpy>=1.24.0
+
+# ModelScope库
+modelscope>=1.9.0
+
+# 缓存系统
+redis>=5.0.0
+
+# 数据库
+sqlalchemy>=2.0.0
+
+# 自然语言处理
+transformers>=4.30.0
+torch>=2.0.0
+
+# Web框架（可选，用于监控）
+fastapi>=0.104.0
+uvicorn>=0.23.0
+
+# 工具库
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+loguru>=0.7.0
+click>=8.1.0
+requests>=2.31.0
+
+# 开发工具
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0

@@ -1,0 +1,238 @@
+{
+  "_comment": "ModelScope MCP Server 配置文件示例",
+  "_description": "复制此文件为 config.json 并根据需要修改配置",
+  
+  "environment": {
+    "name": "development",
+    "debug": true,
+    "timezone": "Asia/Shanghai"
+  },
+  
+  "database": {
+    "url": "sqlite:///./modelscope_mcp.db",
+    "echo": false,
+    "pool_size": 5,
+    "max_overflow": 10,
+    "pool_timeout": 30,
+    "pool_recycle": 3600,
+    "pool_pre_ping": true
+  },
+  
+  "redis": {
+    "host": "localhost",
+    "port": 6379,
+    "db": 0,
+    "password": null,
+    "timeout": 5,
+    "max_connections": 10,
+    "retry_on_timeout": true,
+    "health_check_interval": 30
+  },
+  
+  "cache": {
+    "enabled": true,
+    "default_ttl": 3600,
+    "eviction_policy": "lru",
+    "max_size": 1000,
+    "key_prefix": "modelscope_mcp",
+    "compression_threshold": 1024,
+    "serialization_format": "json",
+    "strategies": {
+      "lru": {
+        "max_size": 1000
+      },
+      "lfu": {
+        "max_size": 1000
+      },
+      "ttl": {
+        "default_ttl": 3600,
+        "max_size": 1000
+      },
+      "fifo": {
+        "max_size": 1000
+      },
+      "random": {
+        "max_size": 1000
+      }
+    }
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "format": "json",
+    "to_file": true,
+    "to_console": true,
+    "file_path": "./logs/modelscope_mcp.log",
+    "max_file_size": 10485760,
+    "backup_count": 5,
+    "rotation_interval": 86400,
+    "structured": true,
+    "include_timestamp": true,
+    "include_level": true,
+    "include_logger_name": true,
+    "include_thread_info": false,
+    "include_process_info": false
+  },
+  
+  "mcp_server": {
+    "name": "modelscope-dataset-server",
+    "version": "1.0.0",
+    "description": "ModelScope 数据集即时查询 MCP Server",
+    "host": "localhost",
+    "port": 8000,
+    "max_connections": 100,
+    "request_timeout": 30,
+    "keep_alive_timeout": 5,
+    "graceful_shutdown_timeout": 10,
+    "enable_cors": true,
+    "cors_origins": ["*"],
+    "enable_compression": true,
+    "compression_threshold": 1024
+  },
+  
+  "datasets": {
+    "modelscope": {
+      "enabled": true,
+      "api_url": "https://modelscope.cn/api/v1",
+      "api_key": null,
+      "timeout": 30,
+      "retries": 3,
+      "cache_ttl": 7200,
+      "rate_limit": {
+        "requests_per_minute": 60,
+        "burst_size": 10
+      }
+    },
+    "huggingface": {
+      "enabled": true,
+      "api_url": "https://huggingface.co/api",
+      "api_key": null,
+      "timeout": 30,
+      "retries": 3,
+      "cache_ttl": 7200,
+      "rate_limit": {
+        "requests_per_minute": 60,
+        "burst_size": 10
+      }
+    },
+    "cache_ttl": {
+      "list": 3600,
+      "info": 1800,
+      "samples": 900,
+      "search": 1800
+    },
+    "limits": {
+      "default_limit": 20,
+      "max_limit": 100,
+      "max_samples": 1000
+    },
+    "features": {
+      "enable_search": true,
+      "enable_filtering": true,
+      "enable_sorting": true,
+      "enable_pagination": true,
+      "enable_caching": true
+    }
+  },
+  
+  "nlp": {
+    "enabled": true,
+    "confidence_threshold": 0.5,
+    "entity_confidence_threshold": 0.3,
+    "model_cache_ttl": 86400,
+    "query_cache_ttl": 3600,
+    "supported_languages": ["zh", "en"],
+    "default_language": "zh",
+    "intent_classifier": {
+      "model_name": "intent_classifier",
+      "confidence_threshold": 0.5,
+      "max_predictions": 3
+    },
+    "entity_extractor": {
+      "model_name": "entity_extractor",
+      "confidence_threshold": 0.3,
+      "max_entities": 10
+    },
+    "query_parser": {
+      "enable_preprocessing": true,
+      "enable_postprocessing": true,
+      "max_query_length": 1000,
+      "timeout": 10
+    }
+  },
+  
+  "performance": {
+    "async_concurrency_limit": 10,
+    "http_timeout": 30,
+    "http_retries": 3,
+    "http_pool_size": 100,
+    "memory_limit_mb": 512,
+    "cpu_limit_percent": 80,
+    "enable_profiling": false,
+    "profiling_sample_rate": 0.01,
+    "enable_metrics": true,
+    "metrics_interval": 60
+  },
+  
+  "security": {
+    "api_key": null,
+    "jwt_secret_key": null,
+    "allowed_hosts": ["localhost", "127.0.0.1"],
+    "cors_allowed_origins": ["*"],
+    "https_enabled": false,
+    "ssl_cert_path": null,
+    "ssl_key_path": null,
+    "enable_rate_limiting": true,
+    "rate_limit_requests_per_minute": 100,
+    "enable_request_validation": true,
+    "enable_response_validation": false
+  },
+  
+  "monitoring": {
+    "metrics_enabled": true,
+    "metrics_interval": 60,
+    "health_check_enabled": true,
+    "health_check_interval": 30,
+    "enable_tracing": false,
+    "tracing_sample_rate": 0.1,
+    "sentry_dsn": null,
+    "enable_error_reporting": true
+  },
+  
+  "development": {
+    "hot_reload": true,
+    "debug_toolbar": true,
+    "verbose_errors": true,
+    "enable_test_endpoints": true,
+    "mock_external_apis": false,
+    "test_database_url": "sqlite:///:memory:",
+    "test_redis_db": 1
+  },
+  
+  "directories": {
+    "data_dir": "./data",
+    "temp_dir": "./temp",
+    "log_dir": "./logs",
+    "cache_dir": "./cache",
+    "config_dir": "./config",
+    "backup_dir": "./backups"
+  },
+  
+  "features": {
+    "enable_caching": true,
+    "enable_database": true,
+    "enable_redis": true,
+    "enable_nlp": true,
+    "enable_monitoring": true,
+    "enable_logging": true,
+    "enable_compression": true,
+    "enable_async": true
+  },
+  
+  "experimental": {
+    "enable_experimental_features": false,
+    "enable_beta_apis": false,
+    "enable_advanced_caching": false,
+    "enable_ml_optimization": false
+  }
+}

@@ -1,0 +1,6 @@
+2025-08-12 23:05:10 - ModelScopeMCPServer - INFO - 启动 modelscope-dataset-server v0.1.0
+2025-08-12 23:05:10 - ModelScopeMCPServer - INFO - 正在初始化服务...
+2025-08-12 23:05:10 - DatabaseService - INFO - 正在连接数据库: sqlite:///D:\Desktop\ModelScope mcp\data\modelscope_mcp.db
+2025-08-12 23:05:10 - DatabaseService - INFO - 数据库连接初始化完成
+2025-08-12 23:05:10 - CacheService - INFO - Redis已在配置中禁用，跳过连接
+2025-08-12 23:05:10 - ModelScopeMCPServer - INFO - 服务初始化完成
